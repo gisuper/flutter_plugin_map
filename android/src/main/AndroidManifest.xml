@@ -24,13 +24,7 @@
     <!-- 这个权限用于访问GPS定位 -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <application>
-    <!-- 百度地图key -->
-    <meta-data
-        android:name="com.baidu.lbsapi.API_KEY"
-        android:value="aWt25wC3ZRGz6qotur8W8ZVkZSh8zFT1" />
-    <service android:name="com.baidu.location.f"
-        android:enabled="true"
-        android:process=":remote"/>
+
 </application>
 
 </manifest>
